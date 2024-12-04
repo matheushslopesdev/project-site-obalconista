@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <title>O Balconista -  Validade Receita</title>
+</head>
+<body>
+    <%- include('../partials/navbar.ejs'); %>
+    
+    <div class="container">
+
+        <div>
+            <select name="tipoReceita" id="tipo-receita">
+                <option value="popular">Popular</option>
+                <option value="antimicrobiano">Antimicrobiana</option>
+                <option value="receitacomum">Receituario Comum</option>
+            </select>
+            <label>Data Receita</label>
+            <input type="date" id="data">
+        </div>
+        <input type="button" id="btn-calc" value="Calcular">
+        <p>AQUI</p>
+    </div>
+
+    <%- include('../partials/footer.ejs'); %>
+    
+    <script src="./js/validadeReceita.js"></script>
+</body>
+</html>

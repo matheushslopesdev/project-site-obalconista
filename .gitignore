@@ -1,0 +1,20 @@
+# Dependências de pacotes
+node_modules/
+
+# Arquivos de logs
+*.log
+
+# Arquivos de ambiente
+.env
+
+# Diretórios de build ou dist
+/dist/
+/build/
+
+# Editor de código
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store  # Para macOS
+Thumbs.db  # Para Windows

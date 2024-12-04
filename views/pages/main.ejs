@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <title>O Balconista</title>
+</head>
+<body>
+    <%- include('../partials/navbar.ejs'); %>
+    
+    <div class="container">
+        <!--Card links-->
+        <div class="container-lista">
+            <div class="nome-lista">
+                <span>Calculadoras</span>
+            </div>
+            <div class="lista">
+                <a href="/validadereceita">Validade da Receita</a>
+            </div>
+        </div>
+        <!--Card links-->
+
+        <!--Card links-->
+        <div class="container-lista">
+            <div class="nome-lista">
+                <span>Posologias</span>
+            </div>
+            <div class="lista">
+                <a href="#">Link 1</a>
+            </div>
+        </div>
+        <!--Card links-->
+    </div>
+
+    <%- include('../partials/footer.ejs'); %>
+    
+    
+</body>
+</html>
