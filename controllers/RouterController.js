@@ -1,4 +1,4 @@
-
+const fs = require('fs')
 
 module.exports = class RouterController {
 
@@ -10,8 +10,9 @@ module.exports = class RouterController {
         res.render('pages/validadeReceita')
     }
 
-    static DosePedriatrica(req,res){
-        res.render('pages/dosePediatrica')
+    static ads(req,res){
+        res.send('google.com, pub-2763977508114521, DIRECT, f08c47fec0942fa0')
+        
     }
 
 }

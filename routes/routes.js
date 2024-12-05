@@ -11,9 +11,9 @@ router.get('/ads',(req,res)=>{
     res.render('../ads')
 })
 
-router.get('/home',RouterController.Home)
+router.get('/',RouterController.Home)
+router.get('/ads.txt',RouterController.ads)
 router.get('/validadereceita',RouterController.ValidadeReceita)
-router.get('/dosepediatrica',RouterController.DosePedriatrica)
 
 
 
