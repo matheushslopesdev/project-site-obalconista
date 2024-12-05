@@ -22,54 +22,19 @@
                 <option value="antimicrobiano">Antimicrobiana</option>
                 <option value="receitacomum">Receituario Comum</option>
             </select>
-            <label>Data Receita</label>
-            <input type="date" id="data">
+            <label>Data Inicial</label>
+            <input type="date" id="inicial">
+            <label>Data Final</label>
+            <input type="date" id="final">
+            <input type="button" id="btn-calc" value="Calcular">
+            <p id="resultado"></p>
         </div>
-        <input type="button" id="btn-calc" value="Calcular">
-        <p id="resultado"></p>
-
-        <div class="conteudo-div">
-            <p>A validade de uma receita médica é um fator crucial para a dispensação segura e legal de medicamentos. Cada tipo de receita possui prazos específicos determinados pela legislação brasileira, como forma de garantir o acompanhamento médico e evitar riscos à saúde do paciente.</p>
-    
-            <p><strong>Como Funciona Nossa Calculadora?</strong></p>
-            <p>Nossa calculadora de validade de receitas foi desenvolvida para facilitar o dia a dia dos balconistas de farmácia e profissionais da área. Com ela, você pode:</p>
-            <ul>
-                <li>Verificar rapidamente a validade de receitas de medicamentos controlados, antimicrobianos e de uso comum.</li>
-                <li>Consultar as diferenças entre receitas <strong>tipo A</strong>, <strong>tipo B</strong>, <strong>tipo C</strong> e receitas <strong>simples</strong>.</li>
-                <li>Garantir que a dispensação está dentro do prazo legal, evitando problemas regulatórios.</li>
-            </ul>
-            
-            <p><strong>Principais Regras de Validade</strong></p>
-            <ul>
-                <li><strong>Receitas de Antimicrobianos (como antibióticos):</strong> validade de 10 dias a partir da data de emissão.</li>
-                <li><strong>Receitas Tipo A (Amarela):</strong> validade de 30 dias, restrita a medicamentos controlados da lista de substâncias entorpecentes e psicotrópicos.</li>
-                <li><strong>Receitas Tipo B (Azul):</strong> validade de 30 dias, para medicamentos psicotrópicos.</li>
-                <li><strong>Receitas Tipo C:</strong> validade variável dependendo da subcategoria (por exemplo, receitas de retinoides de uso tópico têm validade de 120 dias).</li>
-            </ul>
-            
-            <p><strong>Por Que Usar a Calculadora?</strong></p>
-            <p>A legislação é clara, mas, no dia a dia corrido, é fácil esquecer detalhes específicos. Nossa calculadora:</p>
-            <ul>
-                <li>Ajuda a evitar erros humanos na conferência.</li>
-                <li>É rápida e prática, ideal para quem precisa de agilidade no atendimento.</li>
-                <li>Atualiza-se conforme mudanças nas normas da Anvisa, garantindo informações confiáveis.</li>
-            </ul>
-            
-            <p><strong>Dados Relevantes sobre Prescrições Médicas</strong></p>
-            <p>Um estudo publicado pela <em>Revista Brasileira de Farmácia</em> aponta que cerca de <strong>20% das receitas médicas analisadas apresentavam erros ou prazos inválidos</strong>, o que pode comprometer a segurança do paciente.</p>
-            <p>Segundo a <strong>Anvisa</strong>, os medicamentos controlados respondem por <strong>30% das notificações de irregularidades</strong> no setor farmacêutico, reforçando a importância de ferramentas como a nossa calculadora.</p>
-            
-            <p><strong>Explore a Calculadora e Simplifique Sua Rotina!</strong></p>
-            <p>Nossa ferramenta foi feita pensando em você, que lida diariamente com a responsabilidade de oferecer um atendimento eficiente e dentro da lei. Experimente agora e garanta a segurança dos seus pacientes!</p>
-            
-        </div>
-    
+       
         
-    </div>
-    
-    <footer>
-        <span>Desenvolvido por: <a href="https://github.com/matheushslopesdev" target="_blank">@Devlopes</a></span>
-    </footer>
+        
+
+        
+        <%- include('../partials/footer.ejs'); %>
     
     <script src="./js/validadeReceita.js"></script>
 </body>

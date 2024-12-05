@@ -3,9 +3,6 @@ const router = express.Router()
 const RouterController = require('../controllers/RouterController')
 
 
-router.get('/', (req,res)=>{
-    res.redirect('/home')
-})
 
 router.get('/ads',(req,res)=>{
     res.render('../ads')
