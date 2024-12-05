@@ -7,6 +7,10 @@ router.get('/', (req,res)=>{
     res.redirect('/home')
 })
 
+router.get('/ads',(req,res)=>{
+    res.render('../ads')
+})
+
 router.get('/home',RouterController.Home)
 router.get('/validadereceita',RouterController.ValidadeReceita)
 router.get('/dosepediatrica',RouterController.DosePedriatrica)

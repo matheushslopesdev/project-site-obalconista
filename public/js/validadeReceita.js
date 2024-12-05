@@ -12,13 +12,13 @@ btn.addEventListener('click', (e)=>{
         return resultado.innerHTML = `Data Invalida`
     }
     if(btnSelect.value === 'popular'){
-        calcDate(180,data)
+        calcDate(181,data)
     }
     if(btnSelect.value === 'antimicrobiano'){
-        calcDate(10,data)
+        calcDate(11,data)
     }
     if(btnSelect.value === 'receitacomum'){
-        calcDate(30,data)
+        calcDate(31,data)
     }
 })
 

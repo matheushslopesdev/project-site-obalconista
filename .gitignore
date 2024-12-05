@@ -18,3 +18,4 @@ node_modules/
 # Sistema operacional
 .DS_Store  # Para macOS
 Thumbs.db  # Para Windows
+ads.txt
