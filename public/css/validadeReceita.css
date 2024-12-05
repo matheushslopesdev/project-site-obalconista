@@ -66,13 +66,9 @@ input[type="button"]{
 
 @media only screen and (max-width: 600px) {
    
-    input[type="button"]{
-        margin-bottom: 500px;
-    }
 
     .conteudo-div{
         text-align: auto;
-        margin-top: 200px;
         width: 100%;
         background-color: white;
     }
