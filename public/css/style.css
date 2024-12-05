@@ -66,8 +66,10 @@ a{
 
 @media only screen and (max-width: 600px) {
    
-    .nome-lista{
-        width: 100%;
+    .container-lista{
+        width: 75vh;
+
+
     }
 
    
