@@ -11,6 +11,7 @@ router.get('/ads',(req,res)=>{
 router.get('/',RouterController.Home)
 router.get('/ads.txt',RouterController.ads)
 router.get('/validadereceita',RouterController.ValidadeReceita)
+router.get('/regrasreceita',RouterController.RegrasReceita)
 
 
 

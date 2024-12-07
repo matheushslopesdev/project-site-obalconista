@@ -10,6 +10,10 @@ module.exports = class RouterController {
         res.render('pages/validadeReceita')
     }
 
+    static RegrasReceita(req,res){
+        res.render('pages/regrasReceitaA')
+    }
+
     static ads(req,res){
         res.send('google.com, pub-2763977508114521, DIRECT, f08c47fec0942fa0')
         
