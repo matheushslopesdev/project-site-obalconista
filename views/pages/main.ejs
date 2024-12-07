@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-adsense-account" content="ca-pub-2763977508114521">
-    <link rel="shortcut icon" href="./img/obicon.ico" type="image/x-icon">
+    <meta name="description" content="Plataforma completa para balconistas de farmácia, com busca de medicamentos, cálculo de preços e mais ferramentas para facilitar seu dia a dia.">
+    <meta name="keywords" content="farmácia, balconista, ferramentas para farmácia, busca de medicamentos, interações medicamentosas">
+    <meta name="robots" content="index, follow">
+    <link rel="shortcut icon" href="/img/obicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/footer.css">
@@ -14,28 +17,32 @@
     <%- include('../partials/navbar.ejs'); %>
     
     <div class="container">
+
+        <!--Card links-->
+        <div class="container-lista">
+            <div class="lista" id="pheader">
+                <div id="paragrafo">
+                    <p class="paragrafo-home"><b>Bem-vindo ao O Balconista</b></p>
+                    <p></p>
+                    <p class="paragrafo-home">A plataforma que simplifica sua rotina no balcão de farmácia! Aqui você encontra ferramentas práticas como busca de medicamentos, cálculo de preços e consulta de bulas, tudo projetado para tornar seu atendimento mais rápido, seguro e eficiente. Facilite seu dia a dia e surpreenda seus clientes com a ajuda de O Balconista!</p>
+                </div>
+                
+            </div>
+        </div>
+        <!--Card links-->
         <!--Card links-->
         <div class="container-lista">
             <div class="nome-lista">
-                <span>Calculadoras</span>
+                <span>Ferramentas</span>
             </div>
             <div class="lista">
-                <a href="/validadereceita">Validade da Receita</a>
+                <a href="/validadereceita">Calculadora de Receituario</a>
             </div>
         </div>
         <!--Card links-->
 
-        <!--Card links-->
-        <div class="container-lista">
-            <div class="nome-lista">
-                <span>Posologias</span>
-            </div>
-            <div class="lista">
-                <a href="#">Link 1</a>
-            </div>
-        </div>
-        <!--Card links-->
-    </div>
+        
+        
 
     <%- include('../partials/footer.ejs'); %>
     

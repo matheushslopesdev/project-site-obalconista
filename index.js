@@ -2,7 +2,6 @@
 //Configuração Servidor Express
 const express = require('express')
 const app = express()
-const fs = require('fs')
 
 // Configuração Variavel de Ambiente
 require('dotenv').config()
