@@ -10,8 +10,12 @@ module.exports = class RouterController {
         res.render('pages/validadeReceita')
     }
 
-    static RegrasReceita(req,res){
+    static RegrasReceitaA(req,res){
         res.render('pages/regrasReceitaA')
+    }
+
+    static RegrasReceitaB(req,res){
+        res.render('pages/regrasReceitaB')
     }
 
     static ads(req,res){

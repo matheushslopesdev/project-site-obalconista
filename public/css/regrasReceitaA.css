@@ -3,50 +3,83 @@
 .container{
     display: flex;
     justify-content: center;
+    width: 100%;
     align-items: center;
     height: 100vh;
-}
-
-.container-data{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 70%;
-    height: 100vh;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    
-}
-
-.container-data span{
     font-family: "Roboto Mono", serif;
     font-size: large;
 }
 
-.texto-container{
-    & span{
-        background-color: #ff3 ;
-    }
+
+.box-regra{
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
     
+
 }
 
-.texto-container{
+.receita{
+    display: flex;
+    width: 100%;
+    justify-content: center;
     margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.texto-container p{
-    margin-bottom: 10px;
-}
-
-.texto-container li{
-    margin-bottom: 10px;
+    
     
 }
 
-ul li{
-    list-style: none;
+.tipo-receita{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.box-caracteristicas{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gap{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.caracteristicas{
+    margin-top: 10px;
+    width:70%;
+    display: flex;
+    align-items: start;
+
+
+    & ul li{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    & li{
+        margin-bottom: 10px;
+    }
+}
+
+.aling{
+    display: flex;
+    width: 70%;
+    padding: 30px;
+    align-items: start;
+    text-align: start;
+    flex-direction: column;
+    margin-top: 10px;
+    border: 1px solid #212121;
 }
 
 

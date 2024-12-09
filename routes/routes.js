@@ -4,14 +4,13 @@ const RouterController = require('../controllers/RouterController')
 
 
 
-router.get('/ads',(req,res)=>{
-    res.render('../ads')
-})
+
 
 router.get('/',RouterController.Home)
 router.get('/ads.txt',RouterController.ads)
 router.get('/validadereceita',RouterController.ValidadeReceita)
-router.get('/regrasreceita',RouterController.RegrasReceita)
+router.get('/regrasreceita-a',RouterController.RegrasReceitaA)
+router.get('/regrasreceita-b',RouterController.RegrasReceitaB)
 
 
 
