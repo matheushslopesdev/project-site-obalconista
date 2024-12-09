@@ -14,6 +14,7 @@
 ## Funcionalidades
 - [x] Funcionalidade 1: Calculadora de Datas para receituario, ex: Farmacia Popular, validade 179 dias
 - [ ] Funcionalidade 2: Calculadora de Posologias de medicamentos.
+- [ ] Funcionalidade 3: Regras de Receituario Amarela, Azul e Branca.
 
 ---
 
